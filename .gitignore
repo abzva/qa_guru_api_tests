@@ -1,0 +1,45 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# Тестирование и отчёты
+.pytest_cache/
+.coverage
+htmlcov/
+report.html
+allure-results/
+allure-report/
+
+# Переменные окружения / секреты
+.env
+.env.local
+*.local
+
+# Логи
+*.log
+
+# Кэш и временные файлы
+.cache/
+*.tmp
+
+# macOS
+.DS_Store
+
+# Jupyter (если используются ноутбуки)
+.ipynb_checkpoints/
